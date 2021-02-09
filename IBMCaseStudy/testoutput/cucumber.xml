@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="46.474">
+    <testcase classname="Login Feature" name="To compose an email" time="46.143">
+        <system-out>
+            <![CDATA[Given User is logged into the application...................................passed
+When User clicks on Compose.................................................passed
+When user enters send to "Test User"........................................passed
+And user enters subject "Hi for Testing"....................................passed
+And user enters message "HI Mr Yogesh, Thanks for Testing"..................passed
+And user click on Send button...............................................passed
+Then I should see message sent "Test user user (username0987)"..............passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

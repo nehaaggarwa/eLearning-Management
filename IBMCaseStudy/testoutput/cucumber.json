@@ -1,0 +1,136 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-09T10:41:56.851Z",
+        "line": 30,
+        "name": "To compose an email",
+        "description": "",
+        "id": "login-feature;to-compose-an-email;;2",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 22630984800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User is logged into the application",
+            "match": {
+              "location": "StepDefinition.Steps.user_is_logged_into_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8132922700,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User clicks on Compose",
+            "match": {
+              "location": "StepDefinition.Steps.user_clicks_on_compose()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4276188100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user enters send to \"Test User\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Test User\"",
+                  "offset": 20
+                }
+              ],
+              "location": "StepDefinition.Steps.user_enters_send_to(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2074440200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user enters subject \"Hi for Testing\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hi for Testing\"",
+                  "offset": 20
+                }
+              ],
+              "location": "StepDefinition.Steps.user_enters_subject(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user enters message \"HI Mr Yogesh, Thanks for Testing\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"HI Mr Yogesh, Thanks for Testing\"",
+                  "offset": 20
+                }
+              ],
+              "location": "StepDefinition.Steps.user_enters_message(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5612651800,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user click on Send button",
+            "match": {
+              "location": "StepDefinition.Steps.user_click_on_send_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3250875000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I should see message sent \"Test user user (username0987)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Test user user (username0987)\"",
+                  "offset": 26
+                }
+              ],
+              "location": "StepDefinition.Steps.i_should_see_message_sent(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ComposeEmail"
+          }
+        ]
+      }
+    ],
+    "name": "Login Feature",
+    "description": "This Application includes:\n1) Login to application \n2) Compose an email",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "file:Login/Login.feature",
+    "tags": []
+  }
+]
