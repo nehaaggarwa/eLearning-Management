@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="46.474">
-    <testcase classname="Login Feature" name="To compose an email" time="46.143">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="81.966">
+    <testcase classname="Login Feature" name="Login as a registered User" time="31.428">
+        <system-out>
+            <![CDATA[Given Login application present.............................................passed
+When Enter valid Name "neha.agrwl08"........................................passed
+And Enter valid password "neha.agrwl08".....................................passed
+And click on submit validButton.............................................passed
+Then I should see Compose...................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Login Feature" name="To compose an email" time="49.968">
         <system-out>
             <![CDATA[Given User is logged into the application...................................passed
 When User clicks on Compose.................................................passed

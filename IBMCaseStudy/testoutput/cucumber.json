@@ -3,7 +3,95 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-02-09T10:41:56.851Z",
+        "start_timestamp": "2021-02-09T10:57:28.376Z",
+        "line": 16,
+        "name": "Login as a registered User",
+        "description": "",
+        "id": "login-feature;login-as-a-registered-user;;2",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16931861100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Login application present",
+            "match": {
+              "location": "StepDefinition.Steps.login_application_present()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 84771100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Enter valid Name \"neha.agrwl08\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"neha.agrwl08\"",
+                  "offset": 17
+                }
+              ],
+              "location": "StepDefinition.Steps.enter_valid_name(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3100249700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Enter valid password \"neha.agrwl08\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"neha.agrwl08\"",
+                  "offset": 21
+                }
+              ],
+              "location": "StepDefinition.Steps.enter_valid_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7834542600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "click on submit validButton",
+            "match": {
+              "location": "StepDefinition.Steps.click_on_submit_valid_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3302661700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should see Compose",
+            "match": {
+              "location": "StepDefinition.Steps.i_should_see_compose()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-09T10:57:59.833Z",
         "line": 30,
         "name": "To compose an email",
         "description": "",
@@ -13,7 +101,7 @@
         "steps": [
           {
             "result": {
-              "duration": 22630984800,
+              "duration": 24673456600,
               "status": "passed"
             },
             "line": 20,
@@ -25,7 +113,7 @@
           },
           {
             "result": {
-              "duration": 8132922700,
+              "duration": 10043558600,
               "status": "passed"
             },
             "line": 21,
@@ -37,7 +125,7 @@
           },
           {
             "result": {
-              "duration": 4276188100,
+              "duration": 4181728400,
               "status": "passed"
             },
             "line": 22,
@@ -55,7 +143,7 @@
           },
           {
             "result": {
-              "duration": 2074440200,
+              "duration": 2056870000,
               "status": "passed"
             },
             "line": 23,
@@ -73,6 +161,7 @@
           },
           {
             "result": {
+              "duration": 1000900,
               "status": "passed"
             },
             "line": 24,
@@ -90,7 +179,7 @@
           },
           {
             "result": {
-              "duration": 5612651800,
+              "duration": 5514873900,
               "status": "passed"
             },
             "line": 25,
@@ -102,7 +191,7 @@
           },
           {
             "result": {
-              "duration": 3250875000,
+              "duration": 3491055600,
               "status": "passed"
             },
             "line": 26,
